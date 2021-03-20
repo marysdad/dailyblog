@@ -2,6 +2,14 @@
 
 <h1>Home</h1>
 
-<p> <%= startingContent %> </p>
+
+
+
+<% moreContent.forEach(function(content){%>
+  <%console.log(content.title);%>
+  <h1><%=content.title%></h1>
+  <p><%=content.body%></p>
+
+<%}); %>
 
 <%-include("partials/footer")-%>
