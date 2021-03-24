@@ -1,0 +1,23 @@
+[33mcommit 46eb4a9d429e8e1d2c3981067a4226afd9d270c2[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: Mary Kaki <justonly4testing@gmail.com>
+Date:   Sun Mar 21 15:43:12 2021 +0000
+
+    I added route parameter values to see if it matches with the title of a post title in the post array
+
+[33mcommit b0ce97fd493ee54600223631904a6d013be06d6a[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: Mary Kaki <justonly4testing@gmail.com>
+Date:   Sat Mar 20 22:48:19 2021 +0000
+
+    I have add code to enter post title and post body and have to populated in the posts pages using a loop
+
+[33mcommit 6e9b1621d5f9c63aac2b1c2d55ec8cdab5f34b7f[m
+Author: Mary Kaki <justonly4testing@gmail.com>
+Date:   Sat Mar 20 15:14:35 2021 +0000
+
+    fixed the form with boottrap and extracted data posted from the form using node.js into the console
+
+[33mcommit bcd9645a76e1eed574ac34c6fe8f5a4f9b1039f0[m
+Author: Mary Kaki <justonly4testing@gmail.com>
+Date:   Fri Mar 19 08:30:43 2021 +0000
+
+    I am developping a node daily blog
