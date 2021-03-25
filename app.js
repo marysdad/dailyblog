@@ -23,7 +23,6 @@ app.get("/", function(req, res){
     moreContent:posts
   });
 
-  //console.log(posts);
 });
 
 app.get("/about", function(req, res){
@@ -68,7 +67,7 @@ app.get("/posts/:postName/", function(req,res){
 
         res.render("post", {
           title:post.title,
-          content:post.content
+          content:post.body
 
         });
 

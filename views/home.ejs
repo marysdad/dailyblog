@@ -2,14 +2,11 @@
 
 <h1>Home</h1>
 
-
-
-
-
 <% moreContent.forEach(function(content){%>
-//  <%console.log(content.title);%>
   <h1><%=content.title%></h1>
-  <p><%=content.body%></p>
+  <p><%=content.body.substring(0,100) + " ..."%>
+  <a href="/posts/<%=content.title%>" >Read More</a>
+  </p>
 
 <%}); %>
 
